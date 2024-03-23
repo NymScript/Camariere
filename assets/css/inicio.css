@@ -1,0 +1,47 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Roboto+Flex:opsz,wght@8. .144,100..1000&display=swap');
+
+
+*{
+    list-style: none;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: "Roboto flex", sans-serif;
+    text-decoration: none;
+    
+}
+
+
+header{
+
+    text-align: center;
+    padding: 25px 0;
+}
+
+.menu a{
+    text-transform: uppercase;
+    text-decoration: none;
+    color: black;
+    padding:0 10px;
+    display: inline-block;
+}
+
+.show-menu, 
+.hide-menu{
+    font-size: 30px;
+    cursor: pointer;
+    display: none;
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+    transition: 0,04s;
+}
+
+.menu a:hover,
+.show-menu,
+.hide-menu{
+    color: rgb(155, 111, 30);
+}
+
+#check{
+    display: none;
+}
