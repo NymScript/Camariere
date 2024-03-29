@@ -13,6 +13,7 @@
 
 /* Imagen fondo Banner */
 
+
 .header {
     min-height: 100vh;
     width: 100%;
@@ -21,6 +22,16 @@
     background-size: cover;
     position: relative;
 }
+
+.header_about_camariere {
+    min-height: 100vh;
+    width: 100%;
+    background-image: linear-gradient(rgba(4,9,30,0.70),rgba(4,9,30,0.70)),url(/assets/img/austin-distel-744oGeqpxPQ-unsplash.jpg);
+    background-position: center;
+    background-size: cover;
+    position: relative;
+}
+
 
 nav{
     display: flex;
@@ -182,11 +193,11 @@ p{
 .row-row{
     margin-top: 5%;
     display: flex;
-    justify-content: space-around;
+    justify-content: space-evenly;
 }
 
 .info-col{
-    flex-basis: 31%;
+    flex-basis: 20%;
     background: #fff3f3;
     border-radius: 10px;
     margin-bottom: 5%;
